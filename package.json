@@ -5,19 +5,23 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next export",
+    "start": "node server.js"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@heroicons/react": "^2.2.0",
     "clsx": "^2.1.1",
+    "express": "^5.1.0",
     "framer-motion": "^12.5.0",
     "lucide-react": "^0.483.0",
     "next": "15.2.4",
+    "path-to-regexp": "^8.2.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-intersection-observer": "^9.16.0"
+    "react-intersection-observer": "^9.16.0",
+    "swiper": "^11.2.6"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",

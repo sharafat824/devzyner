@@ -99,7 +99,7 @@ export default function About() {
               className="relative rounded-2xl overflow-hidden aspect-video"
             >
               <Image
-                src="/about/team-working.jpg" // Replace with your image
+                src="/about/team-working.png" // Replace with your image
                 alt="Devzyner team working"
                 fill
                 className="object-cover"

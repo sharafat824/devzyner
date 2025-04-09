@@ -6,7 +6,7 @@ import { Star, Quote } from 'lucide-react'
 
 export function Testimonials() {
   return (
-    <section className="relative py-28 overflow-hidden bg-gray-50 dark:bg-gray-950">
+    <section className="relative px-8 py-28 overflow-hidden bg-gray-50 dark:bg-gray-950">
       {/* Decorative elements */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-0 left-1/4 w-96 h-96 rounded-full bg-blue-500/5 blur-[100px]" />

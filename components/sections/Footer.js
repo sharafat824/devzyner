@@ -18,7 +18,7 @@ export function Footer() {
       title: 'Company',
       links: [
         { name: 'About Us', href: '/about' },
-        { name: 'Our Team', href: '/team' },
+        { name: 'Our Team', href: '#team' },
         { name: 'Careers', href: '/careers' },
         { name: 'Blog', href: '/blog' },
       ],
@@ -45,7 +45,7 @@ export function Footer() {
       title: 'Contact',
       links: [
         { name: 'hello@devzyner.com', href: 'mailto:hello@devzyner.com', icon: <Mail size={16} className="mr-2" /> },
-        { name: '+1 (555) 123-4567', href: 'tel:+15551234567', icon: <Phone size={16} className="mr-2" /> },
+        { name: '+92 302 2694 034', href: 'tel:+15551234567', icon: <Phone size={16} className="mr-2" /> },
         { name: 'Contact Form', href: '/contact' },
         { name: 'Support Portal', href: '/support' },
       ],
